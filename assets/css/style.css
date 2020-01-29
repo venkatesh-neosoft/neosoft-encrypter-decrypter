@@ -1,0 +1,59 @@
+/* mobile navbar fix*/
+.navbar-fixed{
+    z-index: 1000;
+  }
+
+  /* more space for divs */
+  .mt-5{
+    margin-top: 5em;
+  }
+
+/* sidenav and menu font color */
+nav ul a, nav .sidenav-trigger i, #mobile-nav li a{
+    color: #000;
+}
+
+/* Menu hover */
+nav ul a:hover, #mobile-nav li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Logo Image */
+nav .brand-logo img{
+    max-width: 40% !important;
+    margin-top: 10px;
+}
+
+#mobile-nav .user-view .side-nav-logo img{
+    max-width: 65%;
+    margin-left: 50px;
+}
+
+#mobile-nav .user-view .side-nav-logo img:hover{
+    background-color: transparent !important;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 992px){
+    nav .brand-logo{
+        left: 58%;
+    }
+
+    nav .brand-logo img{
+        max-width: 65% !important;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav .brand-logo{
+        left: 58%;
+    }
+
+    nav .brand-logo img{
+        max-width: 80% !important;
+        margin-top: 5px;
+    }
+}
+

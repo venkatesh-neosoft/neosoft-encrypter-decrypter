@@ -1,0 +1,12 @@
+{
+    "name": "neosoft/encrypter",
+    "description": "A project for encryting and decrypting text",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Providers\\": "providers/"
+        }
+    }
+
+}
