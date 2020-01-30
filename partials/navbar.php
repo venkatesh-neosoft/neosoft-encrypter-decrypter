@@ -1,4 +1,3 @@
-    
     <?php
         $url_parts = explode("/", $_SERVER['REQUEST_URI']);
         $url = $url_parts[count($url_parts) - 1];

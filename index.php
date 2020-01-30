@@ -1,9 +1,4 @@
-<?php 
-
-include __DIR__ . "/config.php"; 
-
-    $active = "yes";
-?>
+<?php include __DIR__ . "/config.php"; ?>
 
 <!DOCTYPE html>
   <html>
