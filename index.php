@@ -34,7 +34,7 @@ include __DIR__ . "/config.php";
                         <div class="row">
                             <div class="input-field col s12">
                             <textarea id="encrypted_text" class="materialize-textarea"></textarea>
-                                <label for="encrypted_text">encrypted Text</label>
+                                <label for="encrypted_text">Encrypted Text</label>
                             </div>
 
                             <div class="input-field col copy" style="margin-left: -5em;" data-clipboard-target="#encrypted_text"> 
