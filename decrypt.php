@@ -1,4 +1,10 @@
-<?php include __DIR__ . "/config.php"; ?>
+<?php 
+
+include __DIR__ . "/config.php"; 
+
+    $active = "yes";
+?>
+
 
 <!DOCTYPE html>
   <html>
@@ -28,11 +34,11 @@
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
-                            <input id="decrypted_text" type="text" value="">
-                            <label for="decrypted_text">Decrypted Text</label>
+                                <textarea id="decrypted_text" class="materialize-textarea"></textarea>
+                                <label for="decrypted_text">Decrypted Text</label>
                             </div>
 
-                            <div class="input-field col copy" style="margin-left: -5em;" data-clipboard-target="#encrypted_text"> 
+                            <div class="input-field col copy" style="margin-left: -5em;" data-clipboard-target="#decrypted_text"> 
                                 <img class="clippy right" src="https://clipboardjs.com/assets/images/clippy.svg" width="20" alt="Copy to clipboard">
                             </div>
 

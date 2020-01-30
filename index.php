@@ -1,4 +1,9 @@
-<?php include __DIR__ . "/config.php"; ?>
+<?php 
+
+include __DIR__ . "/config.php"; 
+
+    $active = "yes";
+?>
 
 <!DOCTYPE html>
   <html>
@@ -28,8 +33,8 @@
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
-                            <input id="encrypted_text" type="text" value="">
-                            <label for="encrypted_text">Encrypted Text</label>
+                            <textarea id="encrypted_text" class="materialize-textarea"></textarea>
+                                <label for="encrypted_text">encrypted Text</label>
                             </div>
 
                             <div class="input-field col copy" style="margin-left: -5em;" data-clipboard-target="#encrypted_text"> 
