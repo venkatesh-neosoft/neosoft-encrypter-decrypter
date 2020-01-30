@@ -1,11 +1,15 @@
-# neosoft-encrypter-decrypter
+# Neosoft Text Encrypter
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-###### Step 1:
-Clone the project
+Text Encrypter is a encryption tool used for encrypting and decrypting the given text.
 
-###### Step 2:
+### Installation
 
-Use composer and run the following command:
-```
-composer install
+Text Encrypter requires [PHP](https://www.php.net/) v7+ and [Composer](https://getcomposer.org/) to run.
+
+Install the dependencies and clone the project.
+Run the following command.
+
+```sh
+$ composer install
 ```
