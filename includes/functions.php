@@ -18,3 +18,19 @@ function trim_string(string $data){
 
     return $data;
 }
+
+function embed_contents(string $contents): string
+{
+    echo $contents;
+}
+
+function render($path)
+{
+    ob_start();
+
+    include $path;
+
+    $contents = ob_get_clean();
+    
+    include_once BASE_PATH . "/Views/Layouts/main.php";
+}
